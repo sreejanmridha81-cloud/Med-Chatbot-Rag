@@ -44,7 +44,7 @@ I structured this repository with the following files:
 ### 1. Configure the Secrets
 I read credentials via an environment file. I create a `.env` file in the root root folder mapping my access token:
 ```env
-GROQ_API_KEY=your_actual_groq_api_key
+GROQ_API_KEY=GQ7869633XXX
 ```
 
 ### 2. Install Packages
