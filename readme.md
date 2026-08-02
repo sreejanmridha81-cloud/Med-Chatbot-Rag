@@ -10,7 +10,7 @@ pinned: false
 license: mit
 short_description: A medical RAG chatbot powered by Llama-3.3-70b and FAISS vectorstore.
 env:
-  GROQ_API_KEY: your-groq-api-key-here
+  GROQ_API_KEY: GQ2345444XX
 ---
 
 # Ask Medchatbot By Rick 🧑‍⚕️
