@@ -26,13 +26,7 @@ def set_custom_prompt(custom_prompt_template):
 #load database
 DB_FAISS_PATH="vectorestore/db_faiss"
 embedding_model=HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
-import os
-import streamlit as st
 
-st.write("Current working directory:", os.getcwd())
-
-for root, dirs, files in os.walk("."):
-    st.write(root, files)
 db=FAISS.load_local(DB_FAISS_PATH,embedding_model,allow_dangerous_deserialization=True)
 
 qa_chain=RetrievalQA.from_chain_type(
