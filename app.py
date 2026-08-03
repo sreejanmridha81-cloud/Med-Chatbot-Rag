@@ -35,7 +35,7 @@ def set_custom_prompt(custom_prompt_template):
 llm = ChatGroq(model='llama-3.3-70b-versatile')
 
 def main():
-    st.title("Ask  Medchatbot By Rick 🧑‍⚕️ !")
+    st.title("Medical-chatbot By Rick 🧑‍⚕️ !")
     st.sidebar.title("Chat Management")
     if st.sidebar.button("💾 Save Current Chat"):
         if 'messages' in st.session_state and len(st.session_state.messages) > 0:
