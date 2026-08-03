@@ -10,7 +10,7 @@ import json
 
 load_dotenv()
 
-DB_FAISS_PATH = "vectorestore\db_faiss"
+DB_FAISS_PATH = "vectorestore/db_faiss"
 HISTORY_FILE = "chat_history.json"  
 
 CUSTOM_PROMPT_TEMPLATE = """use the piecse of information provided in thr correct context to answer  users question .if you dont
